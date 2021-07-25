@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANDA.COM</title>
+    <script src="https://kit.fontawesome.com/b0acb44eb3.js" crossorigin="anonymous"></script>
+    <style>
+        .categories-container{
+            display: flex;
+            justify-content: space-evenly;
+            border: 3px solid lightsteelblue;
+            background-color: rgb(250, 235, 215);
+            padding: 10px 10px 10px 10px ;
+            margin-bottom: 10px;
+        }
+        .baner-img {
+            width: 200px;
+            height: 200px;
+        }
+        .hadphone-details{
+            padding-top: 80px;
+            text-align: center;
+        }
+        .hader:hover{
+            background-color: lightyellow;
+            border-radius: 20px;
+        }
+        .prize{
+           width: 100px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+        }
+        .prize:hover {
+            background-color: lightyellow;
+
+        }
+        /* categories  */
+        .categories{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 40px;
+            
+        }
+        .categories-img-bg{
+            
+
+
+            display: flex;
+            padding: 5px;
+            background-color: aqua;
+            border-radius: 10px;
+        }
+        .categories-img-bg2{
+            display: flex;
+            padding: 5px;
+            background-color:pink;
+            border-radius: 10px;
+        }
+        .categories-img-bg3{
+            display: flex;
+            padding: 5px;
+            background-color:darkturquoise;
+            border-radius: 10px;
+        }
+
+        .categories-img{
+            width: 100px;
+            height: 100px;
+        }
+        .categories-img-bg2:hover{
+            background-color: powderblue;
+        }
+        .categories-img-bg:hover{
+            background-color: royalblue;
+        }
+        .categories-img-bg3:hover{
+            background-color: springgreen;
+        }
+        
+      
+   @media only screen and (max-width: 600px){
+
+       .categories-container{
+           display: table;
+           background-color: antiquewhite;
+       }
+       .categories{
+           display: table;
+           background-color:purple;
+       }
+   }
+   @media only screen and (max-width: 992px){
+
+.categories-container{
+    display: inline-block;
+    background-color: antiquewhite;
+}
+.categories{
+    display: table;
+    background-color:red;
+}
+}
+@media only screen and (max-width:600px) {
+    .bag-contenar{
+        flex-direction: column;
+    }
+    .laltu-bag{
+        display: table;
+    }
+   
+    
+}
+@media  only screen and (max-width:600px) {
+    .shoes-contenar{
+        flex-direction: column;
+    }
+    
+}
+@media only screen and(max-width:600px) {
+    .h1{
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    
+}
+/* bag style --------- */
+
+.bag-contenar{
+   display: flex;
+   justify-content: center;
+    
+}
+.bag1-img img{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.laltu-bag{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid antiquewhite;
+    width: 300px;
+    height: 450px;
+    padding-left:10px ;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px antiquewhite;
+}
+   .niltu-bag{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid antiquewhite;
+    width: 300px;
+    height: 450px;
+    padding-left:10px ;
+    padding-bottom: 10px;
+    box-shadow:  10px 10px antiquewhite;
+
+   }
+   .kaltu-bag{
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid antiquewhite;
+    width: 300px;
+    height: 450px;
+    padding-left:10px ;
+    padding-bottom: 10px;
+    box-shadow:  10px 10px antiquewhite;
+
+   }
+   
+/* shoes  */
+
+.shoes-contenar{
+    display: flex;
+    justify-content: center;
+}
+.shoes1-img img{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.nike{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid antiquewhite;
+    width: 300px;
+    height: 450px;
+    padding-left:10px ;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px antiquewhite;
+}
+.adidas{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid antiquewhite;
+    width: 300px;
+    height: 450px;
+    padding-left:10px ;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px antiquewhite;
+}
+.puma{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid antiquewhite;
+    width: 300px;
+    height: 450px;
+    padding-left:10px ;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px antiquewhite;
+}
+.end{
+   
+    justify-content: end;
+}
+.foot{
+    align-content: center;
+    border: 1px solid;
+    padding-top: 10px;
+    width: 800px;
+    height: 180px;
+    background-color:antiquewhite;
+    
+}
+
+/* nav  -------- */
+@media only screen and (max-width:600px) {
+    .nav-all-info{
+       
+        justify-content: space-evenly;
+        padding-right: 8px;
+    }
+    
+    
+}
+/* @media only screen and (max-width:600px){
+    .foot{
+        background-color: yellow;
+       
+    }
+} */
+
+.nav-all-info{
+   
+    height: 50px;
+    background-color: plum;
+}
+.nav-list{
+    
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.titel a{
+    text-decoration: none;
+}
+.nav-item a{
+    text-decoration: none;
+
+}
+    </style>
+</head>
+
+<body>
+    <header class="nav-all-info">
+        <nav class="nav-list">
+            <div class="titel">
+                <a href=""><i class="fab fa-google-play"></i>PANDA.COM</a>
+            </div>
+            <div class="nav-item">
+                <a href="">Home</a>
+                <a href="">Bags</a>
+                <a href="">Shoes</a>
+                <a href="">Contact</a>
+    
+                
+            </div>
+        </nav>
+    </header>
+    
+    <div class="categories-container">
+        <div class="hadphone-details">
+            <h1 class="hader">Apple brande headphone</h1>
+            <p>This is a world latest headphone</p>
+            <h1 class="prize">$420</h1>
+        </div>
+        <div class="hadphone">
+            <img class="baner-img" src="images/banner-images/headphone.png" alt="">
+        </div>
+        <div class="hadphone-details">
+            <h1 class="hader">Apple brande headphone</h1>
+            <p>This is a world latest headphone</p>
+            <h1 class="prize">$1200</h1>
+        </div>
+        <div class="hadphone">
+            <img class="baner-img" src="images/banner-images/tv.png" alt="">
+        </div>
+        <div class="hadphone-details">
+            <h1 class="hader">Apple brande headphone</h1>
+            <p>This is a world latest headphone</p>
+            <h1 class="prize">$960</h1>
+        </div>
+        <div class="hadphone">
+            <img class="baner-img" src="images/banner-images/xbox.png" alt="">
+        </div>
+
+    </div>
+
+    <!-- categories-img-bg ----------
+     -->
+
+    <div class="categories">
+       <article class="categories-img-bg">
+        <div class="watch-details">
+            <h1 class="hader-watch">Apple Watch</h1>
+            <p>it's a world class Apple watch</p>
+        </div>
+        <div class="watch">
+            <img class="categories-img" src="images/categories/watch.png" alt="">
+        </div>
+       </article>
+
+
+       <article class="categories-img-bg2">
+        <div class="watch-details">
+            <h1 class="hader-watch">Bata Shoes</h1>
+            <p>New model and expensive shoes</p>
+        </div>
+
+        <div class="watch">
+            <img class="categories-img" src="images/categories/shoes.png" alt="">
+        </div>
+       </article>
+
+        <article class="categories-img-bg3">
+            <div class="watch-details">
+                <h1 class="hader-watch">Apple Bag</h1>
+                <p>New version relished apple bag</p>
+            </div>
+    
+            <div class="watch">
+                <img class="categories-img" src="images/categories/bag.png" alt="">
+            </div>
+        </article>
+    </div>
+    <!-- bag ------------------
+    ---------------- -->
+    
+    
+    <h1 class="h1">Top BrandS Bag</h1>
+
+    <div class="shoes-contenar">
+        <article class="laltu-bag">
+            <div class="bag1-img">
+                <img src="images/bags/bag-1.png" alt="">
+            </div>
+            <div class="bag-info">
+                <h1>Saint Laurent</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis maiores beatae, et fugiat dolorum ad eius architecto sunt soluta!</p>
+    
+            </div>
+
+        </article>
+
+        <article class="niltu-bag">
+            <div class="bag1-img">
+                <img src="images/bags/bag-2.png" alt="">
+            </div>
+            <div class="bag-info">
+                <h1>See By chole</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis maiores beatae, et fugiat dolorum ad eius architecto sunt soluta!</p>
+    
+            </div>
+
+        </article>
+
+        <article class="kaltu-bag">
+            <div class="bag1-img">
+                <img src="images/bags/bag-3.png" alt="">
+            </div>
+            <div class="bag-info">
+                <h1>Dolce & Gabbana</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis maiores beatae, et fugiat dolorum ad eius architecto sunt soluta!</p>
+    
+            </div>
+
+        </article>
+    </div>
+
+    <!-- shoes    -
+    ---------------------- -->
+    <h1 class="h1">Top BrandS Shoes</h1>
+    <div class="shoes-contenar">
+        <article class="nike">
+            <div class="shoes1-img">
+                <img src="images/shoes/shoe-1.png" alt="">
+            </div>
+            <div class="bag-info">
+                <h1>Nike</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis maiores beatae, et fugiat dolorum ad eius architecto sunt soluta!</p>
+    
+            </div>
+
+        </article>
+
+        <article class="adidas">
+            <div class="shoes1-img">
+                <img src="images/shoes/shoe-2.png" alt="">
+            </div>
+            <div class="bag-info">
+                <h1>Adidas</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis maiores beatae, et fugiat dolorum ad eius architecto sunt soluta!</p>
+    
+            </div>
+
+        </article>
+
+        <article class="puma">
+            <div class="shoes1-img">
+                <img src="images/shoes/shoe-3.png" alt="">
+            </div>
+            <div class="shoes-info">
+                <h1>puma</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis maiores beatae, et fugiat dolorum ad eius architecto sunt soluta!</p>
+    
+            </div>
+
+        </article>
+    </div>
+    
+       <h4>LET'S STAY IN TUCH</h4>
+        <p>Get update on sales and more</p>
+        
+        
+        
+   
+    <div class="end">
+        
+            <h3>LET'S STAY IN TUCH</h3>
+           
+    </div>
+</body>
+</html>
